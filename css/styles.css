@@ -9,7 +9,6 @@ body {
 ul,
 p {
   margin-top: 0px;
-  margin-bottom: 0px;
 }
 h3,
 h2 {
@@ -177,6 +176,7 @@ h2 {
 .text {
   letter-spacing: 0.03em;
   line-height: 1.7;
+  color: var(--paragraph-color);
 }
 .second-title {
   font-weight: 700;
@@ -301,10 +301,10 @@ h2 {
   display: flex;
   margin: auto;
 }
-.site-nav-list .item {
+.item {
   margin-right: 40px;
 }
-.site-nav-list .item:last-child {
+.item:last-child {
   margin-right: 0px;
 }
 .pages,
@@ -326,23 +326,27 @@ h2 {
 }
 .first-list {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  margin-bottom: 92px;
 }
 
-.flex-container .item {
+.studio-item {
   width: 270px;
   margin-right: 30px;
-  margin-bottom: 116px;
+  min-width: 270px;
+  align-items: center;
 }
-.flex-container.item:nth-child(4n) {
+.list-images {
+  width: 370px;
+  margin-right: 30px;
+}
+.studio-item:nth-child(4n) {
   margin-right: 0px;
 }
 .list-images-links {
   display: flex;
   align-items: center;
-}
-.list-images-links .list-images {
-  margin-right: 30px;
+  margin-bottom: 0px;
 }
 .list-images:last-child {
   margin-right: 0px;
