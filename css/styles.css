@@ -9,6 +9,7 @@ body {
 ul,
 p {
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 h3,
 h2 {
@@ -16,10 +17,12 @@ h2 {
 }
 .names-list {
   display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 .container {
   background-color: var(--primary-white-color);
-  width: 1230px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -97,6 +100,7 @@ h2 {
 }
 .studio-white {
   color: var(--primary-white-color);
+  margin-bottom: 20px;
 }
 .studio-black {
   color: var(--title-text-color);
@@ -234,11 +238,10 @@ h2 {
   background-color: var(--primary-white-color);
 }
 
-.section {
+.main-section {
   text-align: center;
   padding-top: 94px;
   padding-bottom: 94px;
-  margin-bottom: 94;
 }
 .list .header {
   margin-top: 0;
@@ -266,18 +269,22 @@ h2 {
   margin-top: 0;
   margin-bottom: 50;
 }
+
 .list {
+  display: flex;
   padding-top: 0px;
   padding-bottom: 0px;
-  margin-bottom: 94;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 .footer-list {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .page-header {
-  margin-top: 0;
-  margin-bottom: 96;
+  margin-top: 0px;
 }
 
 .portfolio-section {
@@ -326,15 +333,14 @@ h2 {
 }
 .first-list {
   display: flex;
-  align-items: flex-start;
   margin-bottom: 92px;
+  align-items: center;
+  justify-content: flex-end;
 }
-
 .studio-item {
   width: 270px;
   margin-right: 30px;
   min-width: 270px;
-  align-items: center;
 }
 .list-images {
   width: 370px;
@@ -346,14 +352,11 @@ h2 {
 .list-images-links {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   margin-bottom: 0px;
 }
 .list-images:last-child {
   margin-right: 0px;
-}
-.list .section {
-  display: flex;
-  align-items: center;
 }
 .list-description {
   width: 270px;
@@ -375,11 +378,6 @@ h2 {
   margin-right: auto;
   width: 575px;
 }
-.list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
 .image-item {
   width: calc((100% - 60px) / 3);
   margin-bottom: 30px;
@@ -388,10 +386,10 @@ h2 {
 }
 
 .image-item:nth-child(-n - 3) {
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 .image-item:nth-child(3n) {
-  margin-right: 0;
+  margin-right: 0px;
 }
 .honeypie {
   border-bottom: 1px solid #eeeeee;
@@ -404,4 +402,23 @@ h2 {
 }
 .photo {
   display: block;
+}
+.image {
+  margin-bottom: 30px;
+  width: 270px;
+}
+.studio-item .text {
+  margin-bottom: 0px;
+}
+.first-list {
+  display: flex;
+  align-items: flex-start;
+}
+.address,
+.footer-links {
+  display: block;
+  margin-bottom: 20px;
+}
+.footer-links:last-child {
+  margin-bottom: 0px;
 }
