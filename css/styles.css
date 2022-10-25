@@ -15,6 +15,17 @@ h3,
 h2 {
   margin-top: 0px;
 }
+.title-name,
+.text-proffesion {
+  text-align: center;
+}
+.names {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  width: 270px;
+}
 .names-list {
   display: flex;
   align-items: center;
@@ -75,6 +86,7 @@ h2 {
 .names-list {
   list-style: none;
 }
+
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -232,10 +244,11 @@ h2 {
   font-weight: 500;
   font-size: 16px;
   margin-top: 0;
-  margin-bottom: 10;
+  margin-bottom: 10px;
 }
 .page-header {
   background-color: var(--primary-white-color);
+  margin-bottom: 96px;
 }
 
 .main-section {
@@ -274,7 +287,7 @@ h2 {
   display: flex;
   padding-top: 0px;
   padding-bottom: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 92px;
   margin-top: 0px;
   flex-wrap: wrap;
   align-items: flex-end;
@@ -286,12 +299,19 @@ h2 {
 .page-header {
   margin-top: 0px;
 }
-
+.section-button {
+  border: 0ex;
+  width: 216px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .portfolio-section {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-top: 0;
-  margin-bottom: 92;
+  padding-top: 96px;
+  padding-bottom: 92px;
+  margin-top: 96px;
+  margin-bottom: 0px;
 }
 .list .button,
 .list .button-current {
@@ -396,6 +416,10 @@ h2 {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   width: 370px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 .page-header {
   border-bottom: 1px solid #eeeeee;
@@ -404,7 +428,6 @@ h2 {
   display: block;
 }
 .image {
-  margin-bottom: 30px;
   width: 270px;
 }
 .studio-item .text {
